@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def menu():
     # menu.htmlテンプレートをレンダリングし、メニューデータを渡す
-    return render_template('menuyume.html')
+    return render_template('menu.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
